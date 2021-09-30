@@ -1,0 +1,19 @@
+{
+  "name": "tiendaonline",
+  "version": "1.0.0",
+  "description": "First commit !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Sonikeys: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@github.com/Sonikeys/TiendaOnline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sonikeys/TiendaOnline/issues"
+  },
+  "homepage": "https://github.com/Sonikeys/TiendaOnline#readme"
+}

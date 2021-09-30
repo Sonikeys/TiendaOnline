@@ -279,7 +279,9 @@ textarea {
 
 .grid-header{
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 10% 70% 20%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .logo{
@@ -289,10 +291,7 @@ textarea {
 
 
 nav{
-    margin-top: 2em;
     text-align:center;
-    
-
 }
 
 
@@ -300,16 +299,14 @@ nav li{
     display:inline-block;
     width:10%;
     padding:15px 10px;
-    background-color:#000;
     border:1px solid #000;
     text-align:center;
-    color:rgb(224, 203, 83);
     }
 
 nav li:hover{
     background-color:rgb(231, 204, 47);
     color:rgb(0, 0, 0);
-    border:1px solid rgb(231, 204, 47);
+    border:2px solid;
 }
 
 .grid-main{
@@ -332,4 +329,16 @@ nav li:hover{
     height: 20em;
     background-color: rgba(189, 223, 68, 0.486);
     grid-column: 1/3;
+}
+
+.bash{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.icon{
+    display: block;
+    margin: auto;
+    width: 30px;
 }
